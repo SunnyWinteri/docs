@@ -10,7 +10,7 @@ Let's take a look at how these components interact:
 | :---------: | :----------------------------------: |
 |:material-information: **Source**       |A Kubernetes Custom Resource which emits events to the Broker. |
 |:material-relation-many-to-many: **Broker**       | A "hub" for events in your infrastructure; a central location to send events for delivery. |
-|:material-magnet: **Trigger** |Acts as a filter for events entering the broker, can be configured with desired event attributes. |
+|:material-magnet: **Trigger** |Acts as a filter for events entering sinks, can be configured with desired event attributes. |
 |:material-download: **Sink** | A destination for events. |
 
 !!! note "A note on Sources and Sinks"
